@@ -3,7 +3,7 @@ public class Ruffles extends TreeDecorator{
         this.tree = tree;
     }
     public String getTreeName(){
-        return tree.getTreeName() + " ,Ruffles";
+        return tree.getTreeName() + ", Ruffles";
     }
     public int cost() {
         return 1+tree.cost();

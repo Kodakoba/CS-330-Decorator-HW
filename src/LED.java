@@ -3,7 +3,7 @@ public class LED extends TreeDecorator{
         this.tree = tree;
     }
     public String getTreeName(){
-        return tree.getTreeName() + " ,LEDs";
+        return tree.getTreeName() + ", LEDs";
     }
     public int cost() {
         return 10+tree.cost();

@@ -3,7 +3,7 @@ public class Ribbons extends TreeDecorator{
         this.tree = tree;
     }
     public String getTreeName(){
-        return tree.getTreeName() + " ,Ribbons";
+        return tree.getTreeName() + ", Ribbons";
     }
     public int cost() {
         return 2+tree.cost();

@@ -2,7 +2,7 @@ public class Star extends TreeDecorator{
     boolean starExists = false; /*no this is a bad idea but im gonna run with it.*/
     private boolean doesStarExist(Tree tree){
         if(tree instanceof Star){
-            System.out.println("Star already exists!");
+
             return true;
         }
         return false;
@@ -12,6 +12,7 @@ public class Star extends TreeDecorator{
     }
     public String getTreeName() {
         if(doesStarExist(tree)){
+            System.out.println("Star already exists!");
             return tree.getTreeName();
         }
         else {

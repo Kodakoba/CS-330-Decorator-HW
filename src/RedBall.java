@@ -3,7 +3,7 @@ public class RedBall extends TreeDecorator {
         this.tree = tree;
     }
     public String getTreeName() {
-        return tree.getTreeName() + " ,Ball Red";
+        return tree.getTreeName() + ", Ball Red";
     }
     public int cost(){
         return 1+tree.cost();
