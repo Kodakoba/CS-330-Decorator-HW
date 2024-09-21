@@ -3,6 +3,8 @@ public class Main {
         Tree firstChristmasTree = new FraserFir();
         firstChristmasTree = new RedBall(firstChristmasTree);
         firstChristmasTree = new BlueBall(firstChristmasTree);
+        firstChristmasTree = new Star(firstChristmasTree);
+        firstChristmasTree = new Star(firstChristmasTree);
         Tree secondChristmasTree = new ColoradoBlueSpruce();
         secondChristmasTree = new RedBall(secondChristmasTree);
         secondChristmasTree = new BlueBall(secondChristmasTree);
